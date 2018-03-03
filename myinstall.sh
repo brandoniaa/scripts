@@ -7,10 +7,10 @@
 MANAGER="eopkg"
 
 # Variable for the list of packages you wish to install
-PACKAGES="vim neofetch htop ncdu nmap tmux zsh git"
+PACKAGES="vim neofetch htop ncdu nmap tmux zsh git unrar p7zip smplayer"
 
 # Variable for the list of snap packages you wish to install
-SNAPS="discord spotify mailspring tusk"
+SNAPS="discord spotify mailspring"
 
  sudo $MANAGER install -y $PACKAGES
 
